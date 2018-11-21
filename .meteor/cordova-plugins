@@ -1,0 +1,4 @@
+cordova-plugin-autostart@https://github.com/ToniKorin/cordova-plugin-autostart.git#37ca3bb25ab88eb27d9d5ff7d20259da9d0c491e
+cordova-plugin-background-mode@https://github.com/katzer/cordova-plugin-background-mode.git#892b4150ff803517939b75b0bbe052e01eb62dac
+cordova-plugin-battery-status@1.2.4
+cordova-plugin-chrome-apps-system-cpu@1.1.1

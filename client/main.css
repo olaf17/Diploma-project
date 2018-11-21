@@ -1,0 +1,225 @@
+/* CSS declarations go here */
+
+.accountsUI {
+	position: absolute;
+	left: auto;
+	top: 1em;
+	right: 1em;
+	width: 10%;
+	z-index: 1;
+}
+
+.centr {
+	text-align: center;
+}
+.special-margin{
+  margin:2%;
+  color: white;
+  margin-right: 10%;
+}
+.blur{
+	z-index: 1;
+	color: #ccc;
+}
+
+.dashed-border {
+  border: 3px dashed #005f88;
+}
+  .task {
+      
+      height: 100%;
+    }
+    
+    .border-block {
+      border: 1px solid #5c5edc;
+      min-height: 250px;
+    }
+
+    .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+      border-color: #5c5edc !important;
+      border: 1px solid;
+
+    }
+
+    .table tr{
+        border-color: #5c5edc !important;       
+    }
+    .table{
+      margin-bottom: 0px !important;
+    }
+    @media only screen and (min-width: 992px) {
+      .mt-13{
+        margin-top: -13px;
+      }
+      .lh-50{
+        line-height: 50%;
+      }
+    }
+
+    @media only screen and (max-width: 992px) {
+      .lh-50{
+        margin-top: -13px;
+      }
+    }
+
+/*.blur:before{
+  -webkit-filter: blur(3px);
+  -moz-filter: blur(3px);
+  -ms-filter: blur(3px);
+  filter: blur(3px);
+  filter: progid: DXImageTransform.Microsoft.Blur(PixelRadius=3, MakeShadow=false);
+  background:url('/bg.jpg');
+  z-index: -1;
+  width:calc(100%);
+  height:100%;
+  position: absolute;
+  content:" ";
+  margin-left: -15px;
+  margin-right: -15px;
+}*/
+
+.light-font{
+	color: #cecece;
+}
+
+.loginHeading h1{
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+
+.loginFormCaption{
+	color: #cecece;
+	text-align: center;
+}
+
+.p5{
+  padding-bottom: 5px;
+  padding-right: 5px;
+}
+
+.with-img{
+  height: 200px;
+
+}
+
+@media only screen and (min-width: 992px) {
+  .vcentr{
+    display: flex; 
+    align-items:center;
+  }
+}
+
+.icon--menu{
+  color:#5c5edc;;
+}
+
+.m0{
+  margin: 0;
+}
+
+.mr0{
+  margin-right: 0;
+}
+
+.p0{
+  padding: 0;
+}
+
+.alignl{
+  text-align: left;
+  padding-left: 0px !important;
+}
+
+.alignr{
+  text-align: right;
+  padding-right: 0px !important;
+}
+
+.slide-trans {
+  transition: width 2s;
+}
+
+.li-none-marker{
+  list-style-type: none;
+}
+
+.dummy {
+  background-color: gray;
+  border: 1px solid;
+  min-height: 267px !important;
+  outline: 2px dashed;
+  outline-offset: -5px;
+  padding: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tfu-head {
+  /*border-bottom: 1px solid;*/
+  margin-bottom: 2px;
+}
+
+.txt-input-area {
+  resize: none;
+  min-height: 200px !important;
+}
+
+.file-drag-area {
+  border-color: #333;
+  outline-color: #333;
+  border: 1px solid;
+  min-height: 200px !important;
+  outline: 2px dashed;
+  outline-offset: -15px;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.file-drag-area input[type="file"] {
+  display: none;
+}
+
+.description-area {
+  resize: none;
+  min-height: 30px !important;
+}
+
+.color-white{
+  color:white;
+}
+
+.navbar .navbar-inverse{
+  background:"#1c1d22";
+
+}
+.stylebro{
+  height:200px;width:100%;border:1px solid white;padding-bottom:50px;
+}
+.thisdesc{
+  height:100px;width:100%;border:1px solid white;margin-bottom:50px;
+}
+.taskdescr{
+  text-align:center;color:white;
+}
+.tascname{
+  text-align:center;color:white;
+}
+
+pre{
+    border: transparent !important;
+    background: transparent !important;
+    color: #ccc !important;
+    white-space: pre-wrap;       /* Since CSS 2.1 */
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+
+hr{
+  margin-top: 0;
+  border-color: #5c5edc !important;
+}

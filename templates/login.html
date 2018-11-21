@@ -1,0 +1,40 @@
+<template name="login">
+	<form class="form-horizontal blur">
+      <fieldset>
+        <div class="form-group">
+          <label class="col-md-4 control-label" for="login">Email</label>  
+          <div class="col-md-8">
+            <input id="login" type="email" name="loginEmail" placeholder="Type your login here" class="form-control input-md">
+          <!-- <span class="help-block">help</span>   -->
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="col-md-4 control-label" for="password">Password</label>
+          <div class="col-md-8">
+            <input id="password" type="password" name="loginPassword" placeholder="Type your password here" class="form-control input-md" required="">
+            <!-- <span class="help-block">help</span> -->
+          </div>
+        </div>
+        
+      
+        <div class="form-group">
+          <label class="col-md-4 control-label" for="singlebutton"></label>
+          <div class="col-md-8" style="text-align:center">
+            <input id="signin" type="submit" value="Sign in" class="btn btn-primary">
+            <input id="signup" type="submit" value="Sign up" class="btn btn-primary">
+          </div>
+        </div>
+        
+        <div class="form-group">
+          <label class="col-md-4 control-label" for="singlebutton"></label>
+          <div class="col-md-8" style="text-align:center">
+            <input id="reset" type="submit" value="Reset Password" class="btn btn-primary">
+          </div>
+        </div>
+
+
+      </fieldset>
+      
+    </form>
+</template>

@@ -1,0 +1,39 @@
+<template name="register">
+	<form class="form-horizontal blur">
+      <fieldset>
+          <div class="form-group">
+          <label class="col-md-4 control-label" for="textinput">UserName</label>  
+          <div class="col-md-8">
+            <input id="login" type="text" name="registEmail" placeholder="Type your username here" class="form-control input-md">
+          <!-- <span class="help-block">help</span>   -->
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="col-md-4 control-label" for="textinput">Email</label>  
+          <div class="col-md-8">
+            <input id="email" type="email" name="registEmail" placeholder="Type your mail here" class="form-control input-md">
+          <!-- <span class="help-block">help</span>   -->
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="col-md-4 control-label" for="passwordinput">Password</label>
+          <div class="col-md-8">
+            <input id="password" type="password" name="registPassword" placeholder="Type your password here" class="form-control input-md" required="">
+            <!-- <span class="help-block">help</span> -->
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="col-md-4 control-label" for="buttons"></label>
+          <div id="buttons" class="col-md-8" style="text-align:center">
+            <button id="signup" name="singlebutton" class="btn btn-primary">Sign up</button>
+            <button id="back" name="singlebutton" class="btn btn-primary">Back to Sign in</button>
+          </div>
+        </div>
+
+      </fieldset>
+      
+    </form>
+</template>
